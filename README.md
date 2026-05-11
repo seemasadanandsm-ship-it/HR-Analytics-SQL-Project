@@ -33,6 +33,19 @@ The analysis focuses on salary trends, employee performance, department-level in
 ## Project Files
 - `hr_analytics_queries.sql` - Complete SQL queries
 - `screenshots/` - Project screenshots
+- ## Screenshots
+
+### Salary Subquery Analysis
+![Salary Subquery Analysis](salary_subquery_analysis.png)
+
+### Employee Salary Ranking
+![Employee Salary Ranking](employee_salary_ranking.png)
+
+### Department Satisfaction Analysis
+![Department Satisfaction Analysis](department_satisfaction_analysis.png)
+
+### High Performer Analysis
+![High Performer Analysis](high_performer_analysis.png)
 
 ## Sample Insights
 - Identified top-performing employees using ranking functions
