@@ -3,13 +3,35 @@
 ## Project Overview
 This project analyzes employee data using SQL in MySQL Workbench to generate HR and workforce insights.
 
-The analysis focuses on salary trends, employee performance, department-level insights, satisfaction scores, overtime patterns, and high performer identification.
+The analysis focuses on salary trends, employee performance, department-level insights, satisfaction scores, overtime patterns, hiring trends, and high performer identification.
 
 ## Tools Used
 - MySQL Workbench
 - SQL
 
-## SQL Concepts Used
+## Dataset Information
+The dataset contains employee-related HR data including:
+
+- Employee ID
+- Department
+- Salary
+- Performance Score
+- Satisfaction Score
+- Overtime Hours
+- Hire Date
+- Education Level
+- Gender
+
+The dataset was used to perform SQL-based HR analytics and workforce analysis.
+
+## Business Problems Solved
+- Identified high-performing employees across departments
+- Analyzed salary distribution and departmental trends
+- Evaluated employee satisfaction levels
+- Tracked workforce hiring patterns
+- Created ranking-based employee analysis using window functions
+
+## Advanced SQL Concepts Used
 - SELECT statements
 - WHERE clause
 - GROUP BY
@@ -33,7 +55,8 @@ The analysis focuses on salary trends, employee performance, department-level in
 ## Project Files
 - `hr_analytics_queries.sql` - Complete SQL queries
 - `screenshots/` - Project screenshots
-- ## Screenshots
+
+## Screenshots
 
 ### Salary Subquery Analysis
 ![Salary Subquery Analysis](salary_subquery_analysis.png)
